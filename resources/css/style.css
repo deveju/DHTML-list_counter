@@ -1,0 +1,79 @@
+body {
+    background-color: #1c1b22; /* Opera BG color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.list-item {
+    margin-top: 20px;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #3d3a44;
+}
+
+.list-item-content {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.list-item-title {
+    background-color: #3d3a44;
+    width: 1020px;  
+    height: 80px;
+    outline: none;
+    border: none;
+    font-size: 1.6em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.list-item-title:focus {
+    text-decoration: underline;
+}
+
+.buttons {
+    margin-left: auto;
+}
+
+.list-item-increase, .list-item-decrease, .list-item-delete {
+    background-color: #fff;
+    height: 40px; width: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.list-item-increase:hover, .list-item-decrease:hover, .list-item-delete:hover {
+    background-color: #bcbcbc;
+}
+
+.list-item-increase:active, .list-item-decrease:active, .list-item-delete:active {
+    background-color: #919191;
+}
+
+.list-item-count {
+    background-color: #000;
+    color: #fff;
+    height: 40px; width: fit-content;
+    padding: 0px 12px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+#add-new {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
